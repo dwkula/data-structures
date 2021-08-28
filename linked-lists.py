@@ -277,12 +277,3 @@ class DoubleLinkedList:
             llstr += cur.data + '-->'
             cur = cur.prev
         print("Link list in reverse: ", llstr)
-
-
-dll = DoubleLinkedList()
-dll.insert_values(["banana", "mango", "grapes", "orange"])
-dll.print_forward()
-dll.insert_after_value('orange', 'cola')
-dll.print_forward()
-dll.insert_before_value('orange', 'milk')
-dll.print_forward()
